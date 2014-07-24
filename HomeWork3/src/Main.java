@@ -13,7 +13,7 @@ public class Main {
 		
 		
 		j.print(j.merge(arr1, arr2));
-		System.out.println("merge res = " + );
+		//System.out.println("merge res = " + );
 
 		
 
