@@ -12,8 +12,15 @@ public class Main {
 		
 		
 		
+		System.out.println("merge res: ");
 		j.print(j.merge(arr1, arr2));
-		//System.out.println("merge res = " + );
+		
+		System.out.println("iner_join res: ");
+		j.print(j.iner_join(arr1, arr2));
+		
+		System.out.println("outer_join res: ");
+		j.print(j.outer_join(arr1, arr2));
+		
 
 		
 
