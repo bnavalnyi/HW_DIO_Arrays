@@ -102,7 +102,7 @@ public class JoinArrays {
 	}
 
 	public void print(int[] arr){
-		System.out.println("");
+		
 		for(int item:arr)
 			System.out.print(item + " ");
 		System.out.println("");
