@@ -105,6 +105,7 @@ public class JoinArrays {
 		System.out.println("");
 		for(int item:arr)
 			System.out.print(item + " ");
+		System.out.println("");
 	}
 
 
