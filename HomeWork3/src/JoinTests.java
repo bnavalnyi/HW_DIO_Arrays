@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.fail;
 import java.util.Arrays;
 import org.junit.Test;
@@ -18,10 +19,12 @@ public class JoinTests {
 		 
 		 Arrays.sort(res);
 		 Arrays.sort(expect);
-		 
-		 if(!Arrays.equals(res, expect))
-			 fail("Merge method faild");
-		 
+        //local code review (vtegza): use target assertions @ 27.07.14
+        assertArrayEquals(expect, res);
+
+//		 if(!Arrays.equals(res, expect))
+//			 fail("Merge method faild");
+//
 		 
 		 
 	} 
@@ -38,7 +41,8 @@ public class JoinTests {
 		 
 		 Arrays.sort(res);
 		 Arrays.sort(expect);
-		 
+
+        //local code review (vtegza): use target assertions @ 27.07.14
 		 if(!Arrays.equals(res, expect))
 			 fail("Merge method faild");		
 	}
@@ -54,7 +58,8 @@ public class JoinTests {
 		 
 		 Arrays.sort(res);
 		 Arrays.sort(expect);
-		 
+
+        //local code review (vtegza): use target assertions @ 27.07.14
 		 if(!Arrays.equals(res, expect))
 			 fail("Merge method faild");	
 	}
